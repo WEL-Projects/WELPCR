@@ -1,0 +1,34 @@
+A8 - Timer1 - ch1 - PWM - peltier
+A9 - Timer1 - ch2 - PWM - peltier
+A10- Timer1 - ch3 - PWM - lid heater
+A0 - ADC0 - Block temp
+A1 - ADC1 - Lid temp
+A2 - ADC2 - Extra 1
+A3 - ADC3 - Extra 2
+
+A4 - buzzer
+B4 -Status
+
+B0  - UP
+B1  - Down
+B10 - Left
+B11 - Right
+B12 - Mid
+B13 - Set
+B14 - RST
+
+SPI
+A5-CLK
+A6- MISO
+A7-MOSI
+C14- LCD_cs
+B2 - DC
+B5 - LCD reset
+
+B3 - Touch CS
+B8 - Touch IRQ
+
+
+I2C
+B7 - SDA
+B6 - SCK

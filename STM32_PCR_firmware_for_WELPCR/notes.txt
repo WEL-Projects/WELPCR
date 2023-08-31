@@ -1,0 +1,11 @@
+*For lid heater it is found that when PWM 35% then temp is constant at 100 degree
+current was nearly 0.85A
+
+
+*when mosfet is driven by 3.3v
+	temperature set =50 degree
+		
+		if fan not turned on heat sink .its temp = 80
+		if fan turned on heat sink .its temp = 56
+	
+		
