@@ -1,0 +1,30 @@
+ if(block_set_temp < 65)
+	  {
+		  Peltier_PWM_beta = 8.2 * block_set_temp - 300;//282;//276; //9.6959 * block_set_temp - 252.48;
+	  	  PELTIER_PID_WINDOW = 0.5;
+	  	  peltier_pid.Kp = 50;
+	  	  peltier_pid.Ki = 0;
+	  	  peltier_pid.Kd = 0;//150
+	  	  PELTIER_PID_SMALL_WINDOW = 0.5;
+	  	  small_window_kp = 50;
+	  }
+	  else if(block_set_temp < 85)
+	  {
+		  Peltier_PWM_beta = 8.4522 * block_set_temp - 292;//11.285 * block_set_temp - 366.95;// 11.285 366.95
+		  PELTIER_PID_WINDOW = 0.5;
+		  peltier_pid.Kp = 10;
+		  peltier_pid.Ki = 0;
+		  peltier_pid.Kd = 0;
+		  PELTIER_PID_SMALL_WINDOW = 0.5;
+		  small_window_kp = 75;
+	  }
+	  else if(block_set_temp < 150)
+	  {
+	  	  Peltier_PWM_beta = 9.1637 * block_set_temp - 345;
+	  	  PELTIER_PID_WINDOW = 0.5;
+	  	  peltier_pid.Kp = 10;
+	  	  peltier_pid.Ki = 2;//2
+	  	  peltier_pid.Kd = 0;//125;
+	  	  PELTIER_PID_SMALL_WINDOW = 0.5;
+	  	  small_window_kp = 100;//100;
+	  }
