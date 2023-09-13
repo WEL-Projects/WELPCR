@@ -3,7 +3,9 @@
 # WELPCR
 WELPCR is a low-cost polymerase chain reaction (PCR) thermal cycler for DNA amplification, developed at the [Wadhwani Electronics Lab (WEL)](https://www.ee.iitb.ac.in/~wel_iitb/), [IIT Bombay](https://www.iitb.ac.in/). It is inspired by the [OpenPCR](https://openpcr.org/) design and is a standalone device which does not require connection to a computer or a mobile device for configuration and operation. The bill of materials (BOM) cost for assembling one unit of WELPCR is less than INR Rs. 10,000 (approximately USD $120), which makes it a great resource for educational and research use in laboratories with limited resources. The WELPCR design is open-source and made available for developers interested in assembling their own units.
 
-[Watch WELPCR YouTube video](https://www.youtube.com/watch?v=7obOnxuG-sw)
+WELPCR YouTube video: [Watch video](https://www.youtube.com/watch?v=7obOnxuG-sw)
+
+Media article on WELPCR: [Read article](https://www.thehindubusinessline.com/business-tech/affordable-pcr-testing/article65438612.ece)
 
 **If you use this documentation for your project, please cite WELPCR:**
 
